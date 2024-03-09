@@ -129,3 +129,197 @@ h1{
 
 }
 
+
+@media (max-width: 1023px) {
+    .container1{
+        display: block;
+        height: auto;
+    }
+
+
+    .content1{
+        width: 100%;
+        height: 500px;
+        display: block;
+        margin-bottom: 100px;
+    }
+
+    .pic1{
+        width: 60%;
+        height: 50%;
+        margin: 40px 70px;
+
+    }
+
+    .pic-item-banner1{
+        object-fit: cover;
+        width: 90%;
+        height:100%;
+    }
+
+    .title1{
+        width: 50%;
+        height: 50%;
+        margin: 40px 185px;
+        text-align: center;
+    }
+
+
+    .content3{
+        width: 100%;
+        height: 500px;
+        display: block;
+        margin-bottom: 100px;
+    }
+
+    .pic3{
+        width: 60%;
+        height: 50%;
+        margin: 40px 70px;
+
+    }
+
+    .pic-item-banner3{
+        object-fit: cover;
+        width: 90%;
+        height:100%;
+    }
+
+    .title3{
+        width: 50%;
+        height: 50%;
+        margin: 40px 185px;
+        text-align: center;
+    }
+
+    .content2{
+        width: 100%;
+        height: 500px;
+        display: block;
+        margin-bottom: 100px;
+    }
+
+    .pic2{
+        width: 60%;
+        height: 50%;
+        margin: 40px 70px;
+
+    }
+
+    .pic-item-banner2{
+        object-fit: cover;
+        width: 90%;
+        height:100%;
+    }
+
+    .title2{
+        width: 50%;
+        height: 50%;
+        margin: 40px 185px;
+        text-align: center;
+    }
+    
+
+}
+
+
+@media (max-width: 430px) {
+    .container1{
+        display: block;
+        height: auto;
+    }
+
+
+    .content1{
+        width: 100%;
+        height: 500px;
+        display: block;
+        margin-bottom: 50px;
+    }
+
+    .pic1{
+        width: 100%;
+        height: 50%;
+        margin: 0px;
+
+    }
+
+    .pic-item-banner1{
+        object-fit: cover;
+        width: 100%;
+        height:100%;
+        margin: 0;
+    }
+
+    .title1{
+        width: 100%;
+        height: 50%;
+        margin: 0px;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+
+    .content2{
+        width: 100%;
+        height: 500px;
+        display: block;
+        margin-bottom: 50px;
+    }
+
+    .pic2{
+        width: 100%;
+        height: 50%;
+        margin: 0px;
+
+    }
+
+    .pic-item-banner2{
+        object-fit: cover;
+        width: 100%;
+        height:100%;
+        margin: 0;
+    }
+
+    .title2{
+        width: 100%;
+        height: 50%;
+        margin: 0px;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .content3{
+        width: 100%;
+        height: 500px;
+        display: block;
+        margin-bottom: 50px;
+    }
+
+    .pic3{
+        width: 100%;
+        height: 50%;
+        margin: 0px;
+
+    }
+
+    .pic-item-banner3{
+        object-fit: cover;
+        width: 100%;
+        height:100%;
+        margin: 0;
+    }
+
+    .title3{
+        width: 100%;
+        height: 50%;
+        margin: 0px;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+
+    
+
+}
+
