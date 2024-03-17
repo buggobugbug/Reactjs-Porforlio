@@ -12,8 +12,6 @@ function App() {
     <div className="App">
       <Navbar/>
       <Banner/>
-      <Banner1/>
-      <Lienhe/>
 
 
     </div>

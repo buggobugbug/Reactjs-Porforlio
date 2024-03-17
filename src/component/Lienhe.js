@@ -1,6 +1,6 @@
 import React from "react";
 import './Lienhe.css';
-import img5 from '../anhminhhoa.jpg'
+
 
 class Lienhe extends React.Component{
     render(){
@@ -19,13 +19,10 @@ class Lienhe extends React.Component{
                 </div>
                 <div className="Pic-item-5">
                     <div className="anhminhhoa">
-                    <img src={img5}/>
                     </div>
                     <div className="anhminhhoa">
-                    <img src={img5}/>
                     </div>
                     <div className="anhminhhoa">
-                    <img src={img5}/>
                     </div>
 
                 </div>

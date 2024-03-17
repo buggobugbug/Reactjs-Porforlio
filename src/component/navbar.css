@@ -8,10 +8,24 @@
 
 
 .header{
-    height: 46px;
-    background-color: #B0D4B8; 
+    height: 100px;
+    width: 100%;
     display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 0 10px rgb(202, 202, 202);
+}
 
+.nav-item{
+    width: 40%;
+    height: 100%;
+}
+
+.nav-item > ul {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .nav-item > li {
@@ -27,7 +41,6 @@
 .nav-item .nav-item-con{
     /* display: none; */
     position: absolute;
-    background-color: #B0D4B8;
     display: none;
 
 } 
@@ -38,12 +51,12 @@
 
 
 .nav-item li a {
-    font-size: 13px;
+    font-size: 18px;
     text-decoration: none;
-    line-height: 46px;
+    line-height: 100px;
     padding: 0 24px;
     font-family: Arial, Helvetica, sans-serif ;
-    font-weight: 500;
+    font-weight: 300;
     display: inline-block;
 }
 
@@ -54,7 +67,7 @@
 
 .nav-item .nav-item-con li:hover a,
 .nav-item > li:hover > a{
-    color: white;
+    color: orange;
     transition: 1s;
 }
 
@@ -63,24 +76,77 @@
 }
 
 
-.LOGO{
-    margin-left: 50%;
+.logo{
+    width:30%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.LOGO li{
-    display: inline-block;
+.logo li{
+    display: block;
 }
 
-.LOGO li a {
-    font-size: 20px;
-    color: white;
+.logo > li > a{
     text-decoration: none;
-    line-height: 46px;
-    padding: 0 24px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px ;
     font-weight: 700;
-    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif ;
+    color: black;
+
+    
 }
+
+
+.button-lienhe{
+    width: 35%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.anh{
+    width: 20%;
+    height: 99%;
+    font-size: 10px;
+    margin-right: 10px;
+}
+
+.background{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.button{
+    width: 200px;
+    height: 60%;
+    font-size: 17px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif ;
+    display: inline-block;
+    padding: 15px 30px;
+    color: black;
+    background-color: white;
+    border: 2px solid black;
+    outline: none;
+    border-radius: 10px;
+    transition: all 0.5s linear;
+}
+
+
+.button:hover{
+    background-color: black;
+    color: white;
+
+}
+
+
+
+/* phần làm mobile , cho ipad */
 
 
 .nav-bar{
@@ -139,26 +205,13 @@
 .nav-input:checked ~ .nav-item-mobile{
     transform: translateX(0%);
 }
-@media (max-width: 1376px){
-    .nav-bar{
-        display: block;
-    }
-    .nav-item{
-        display: none;
-    }
-    .LOGO
-    {
-        display: none;
-    }
-}
 
-@keyframes fadein{
-    from{
-        opacity: 0;
-    }   
-    to {
-        opacity: 1;
-    }
+.logo{
+    width: 30%;
+    height: 100%;
+    font-size: 40px;
+    justify-content: center;
+    align-items: center;
 }
 
 
