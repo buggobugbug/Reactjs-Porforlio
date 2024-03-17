@@ -31,12 +31,14 @@ class Navbar extends React.Component {
                     </ul>
                     {/* nav Mobile */}
                     <label className='nav-bar' for="nav-mobile-input">
+                    <FontAwesomeIcon icon="fa-solid fa-bars" />
                     </label>
                     <input type='checkbox' name='' hidden className='nav-input' id='nav-mobile-input'/>
                     <label className='nav-overlay' for="nav-mobile-input">
                     </label>
                     <ul className='nav-item-mobile'>
                     <label className='nav-bar-x' for="nav-mobile-input">
+                    <FontAwesomeIcon icon="fa-solid fa-circle-xmark" />
                     </label>
                         <li><a className='nav-item-link-mobile' href=''>Trang Chủ</a></li>
                         <li><a className='nav-item-link-mobile' href=''>Bản Thân Tôi</a></li>

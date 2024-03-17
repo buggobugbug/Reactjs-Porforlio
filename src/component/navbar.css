@@ -175,6 +175,7 @@
     bottom: 0;
     width: 320px;
     max-width: 100%;
+    font-weight: 700;
     background-color: #fff;
     transform: translateX(-100%);
     transition: transform linear 0.3s ;
@@ -205,13 +206,26 @@
 .nav-input:checked ~ .nav-item-mobile{
     transform: translateX(0%);
 }
+@media (max-width: 1376px){
+    .nav-bar{
+        display: block;
+    }
+    .nav-item{
+        display: none;
+    }
+    .LOGO
+    {
+        display: none;
+    }
+}
 
-.logo{
-    width: 30%;
-    height: 100%;
-    font-size: 40px;
-    justify-content: center;
-    align-items: center;
+@keyframes fadein{
+    from{
+        opacity: 0;
+    }   
+    to {
+        opacity: 1;
+    }
 }
 
 
