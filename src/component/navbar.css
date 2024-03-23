@@ -13,7 +13,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    box-shadow: 0 0 0 10px rgb(202, 202, 202);
+    background-color: #0e1336;
 }
 
 .nav-item{
@@ -47,28 +47,33 @@
 
 .nav-item .nav-item-con a {
     color: black;
+
 }
 
 
 .nav-item li a {
     font-size: 18px;
+    height: 80px;
     text-decoration: none;
     line-height: 100px;
     padding: 0 24px;
     font-family: Arial, Helvetica, sans-serif ;
     font-weight: 300;
     display: inline-block;
+        border-bottom: 3px solid transparent;
+            transition: 0.3s ease;
 }
 
 .nav-item > li > a {
-    color: black;
+    color: white;
     font-weight: 700;
 }
 
 .nav-item .nav-item-con li:hover a,
 .nav-item > li:hover > a{
-    color: orange;
+    color: #5356FF;
     transition: 1s;
+    border-bottom:3px solid white;
 }
 
 .nav-item:hover .nav-item-con {
@@ -82,6 +87,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    color: rgb(231, 231, 231);
+    font-size: 20px;
 }
 
 .logo li{
@@ -91,16 +98,17 @@
 .logo > li > a{
     text-decoration: none;
     font-size: 20px ;
-    font-weight: 700;
+    font-weight: 300;
     font-family: Arial, Helvetica, sans-serif ;
-    color: black;
+    color: rgb(231, 231, 231);
+    padding: 5px;
 
     
 }
 
 
 .button-lienhe{
-    width: 35%;
+    width: 34%;
     height: 100%;
     display: flex;
     justify-content: center;
@@ -122,9 +130,9 @@
 
 
 .button{
-    width: 200px;
-    height: 60%;
-    font-size: 17px;
+    width: 150px;
+    height: 50%;
+    font-size: 13px;
     font-weight: 700;
     font-family: Arial, Helvetica, sans-serif ;
     display: inline-block;

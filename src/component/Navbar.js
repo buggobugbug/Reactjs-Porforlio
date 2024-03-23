@@ -1,7 +1,6 @@
 import React from 'react';
 import './navbar.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faInstagram } from '@fortawesome/free-brands-svg-icons';
 class Navbar extends React.Component {
     render() {
         return (
@@ -9,8 +8,7 @@ class Navbar extends React.Component {
                 <div className='header'>
                     {/* Nav pc */}
                     <ul className='logo'>
-                    <FontAwesomeIcon icon={faInstagram} />
-                        <li><a href=''>#nuhnh_bin23</a></li>
+                        <li><a href=''>wvdev</a></li>
                     </ul>
                     <ul className='nav-item'>
                         <li><a href=''>Trang Chủ</a></li>
