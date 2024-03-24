@@ -13,7 +13,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #0e1336;
+    background-color: #1a225c;
 }
 
 .nav-item{
@@ -52,7 +52,7 @@
 
 
 .nav-item li a {
-    font-size: 18px;
+    font-size: 15px;
     height: 80px;
     text-decoration: none;
     line-height: 100px;
@@ -66,7 +66,7 @@
 
 .nav-item > li > a {
     color: white;
-    font-weight: 700;
+    font-weight: 400;
 }
 
 .nav-item .nav-item-con li:hover a,

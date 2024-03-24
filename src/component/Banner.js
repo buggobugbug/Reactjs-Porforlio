@@ -11,8 +11,8 @@ class Banner extends React.Component {
             <>
                 <section className="Container">
                     <div className="containe1">
-                        <h3>Hi</h3>
-                        <h3>I'am <span>Huynh Nhut Huy</span></h3>
+                        <h3>Hello, I'am</h3>
+                        <h3><span>HUYNH NHUT HUY</span></h3>
                         <h4>Web Frontend Developer</h4>
                         <p>Bên cạnh việc trau dồi kiến thức thường xuyên, bạn cũng nên chủ động tìm kiếm việc làm phù hợp để có cơ hội ứng dụng các kiến thức đã học vào công việc thực tế, làm dày thêm vốn hiểu biết và nhanh chóng có mức lương cao trong nghề. </p>
                         <div className="Font">

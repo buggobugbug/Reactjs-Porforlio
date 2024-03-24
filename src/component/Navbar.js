@@ -11,18 +11,19 @@ class Navbar extends React.Component {
                         <li><a href=''>wvdev</a></li>
                     </ul>
                     <ul className='nav-item'>
-                        <li><a href=''>Trang Chủ</a></li>
-                        <li><a href=''>Bản Thân Tôi</a></li>
-                        <li><a href=''>Kiến Thức</a></li>
-                        <li><a href=''>Thông tin</a></li>
+                        <li><a href='' className=''>Home</a></li>
+                        <li><a href=''>About</a></li>
+                        <li><a href=''>Education</a></li>
+                        <li><a href=''>Skill</a></li>
                         <li>
-                            <a href=''>Liên Hệ</a>
+                            <a href=''>Projects</a>
                             <ul className='nav-item-con'>
                                 {/* <li><a href=''>Facebook</a></li>
                                 <li><a href=''>Zalo</a></li>
                                 <li><a href=''>Media</a></li> */}
                             </ul>
                         </li>
+                        <li><a href=''>Word Experiance</a></li>
                     </ul>
                     <ul className='button-lienhe'>
                         <button className='button'>CONTACT ME</button>
